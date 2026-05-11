@@ -128,7 +128,7 @@ Autorize o acesso e copie o token exibido.
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-TRELLO_API_KEY=abc123def456ghi789
+TRELLO_API_KEY=sua_chave_aqui
 TRELLO_API_SECRET=seu_secret_aqui
 TRELLO_TOKEN=seu_token_aqui
 ```
@@ -172,14 +172,15 @@ print(remover_tarefa("Estudar Python"))
 
 ## 🖼️ Seção de Fotos
 
-Adicione suas imagens na pasta `img/` e vincule aqui para ilustrar o funcionamento:
+Como exemplo do agente04 em operação, a partir das imagens da pasta `img/`, ilustro parte do seu funcionamento:
 
-```md
-![p1](img/p1.png)
-![p2](img/p2.png)
-![p3](img/p3.png)
-![p4](img/p4.png)
-```
+![p1](https://github.com/sanderpiva/agente_automatizacao_tarefas_trello/blob/master/agente_automatizacao_tarefas_trello/img/1.PNG)
+
+![p2](https://github.com/sanderpiva/agente_automatizacao_tarefas_trello/blob/master/agente_automatizacao_tarefas_trello/img/2.PNG)
+
+![p3](https://github.com/sanderpiva/agente_automatizacao_tarefas_trello/blob/master/agente_automatizacao_tarefas_trello/img/3.PNG)
+
+![p4](https://github.com/sanderpiva/agente_automatizacao_tarefas_trello/blob/master/agente_automatizacao_tarefas_trello/img/4.PNG)
 
 ---
 
@@ -200,4 +201,9 @@ Adicione suas imagens na pasta `img/` e vincule aqui para ilustrar o funcionamen
 - **Python:** 3.7+  
 - **Licença:** MIT  
 
+## IMPORTANTE 
+
+- Assim como relatou o instrutor Henrique nas videoaulas, o Trello sempre subtrai '1' da data do registro da tarefa (Ex: 11 de maio de  2026, passa a ser 10 maio de 2026). Quando descobrir uma solução para esse pequeno problema pontual, farei uma atualização no repositório. Agradeço a compreenção de todos.
 ---
+
+**Autor** Sander Gustavo Piva
