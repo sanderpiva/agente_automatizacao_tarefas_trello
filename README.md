@@ -128,9 +128,10 @@ Autorize o acesso e copie o token exibido.
 Crie um arquivo `.env` na raiz do projeto:
 
 ```env
-TRELLO_API_KEY=sua_chave_aqui
-TRELLO_API_SECRET=seu_secret_aqui
-TRELLO_TOKEN=seu_token_aqui
+GOOGLE_API_KEY=SUA_CHAVE_DE_API_DO_GOOGLE_AQUI
+TRELLO_API_KEY=SUA_CHAVE_DE_API_DO_TRELLO_AQUI 
+TRELLO_API_SECRET=SUA_CHAVE_DE_API_SECRET_DO_TRELLO_AQUI
+TRELLO_TOKEN=SEU_TOKEN_DO_TRELLO_AQUI  
 ```
 
 ---
