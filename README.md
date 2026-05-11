@@ -20,7 +20,7 @@ Este projeto implementa um **Agente de Organização de Tarefas** em Python, int
 
 ## 📂 Estrutura do Script
 
-O script principal (`main.py`) contém:
+O script principal (`agent.py`) contém:
 
 ### Funções utilitárias
 
@@ -40,15 +40,14 @@ O script principal (`main.py`) contém:
 ## 🛠️ Pré-requisitos
 
 - Conta ativa no Trello  
-- Python 3.7 ou superior  
+- VS Code com Python 3.7 ou superior  
 - `pip` instalado  
 - Navegador web para autorizar o app  
-
 ---
 
 ## 📦 Instalação
 
-Crie um arquivo `requirements.txt` com:
+Com o projeto aberto no VS Code, crie um arquivo `requirements.txt` com:
 
 ```txt
 google-adk
@@ -68,24 +67,27 @@ pip install -r requirements.txt
 
 Para manter o projeto isolado e organizado, crie um ambiente virtual chamado `.lab-dio`:
 
-### Criar o ambiente virtual
+### 1- Criar o ambiente virtual no VS Code
 
 ```bash
 python -m venv .lab-dio
 ```
 
-### Ativar no PowerShell (Windows)
+### 2- Ativar .lab-dio no VS Code (Windows)
 
 ```powershell
 .\.lab-dio\Scripts\Activate.ps1
 ```
 
-### Ativar no Linux/Mac
+### 3- Ativar .lab-dio no VS Code (Linux/Mac)
 
 ```bash
 source .lab-dio/bin/activate
 ```
+⚠️ **IMPORTANTE** 
 
+- Certifique-se de que o VS Code está aberto na pasta raiz (agente04) do projeto antes de rodar os comandos.
+- Caso a pasta .lab-dio já esteja presente no repositório, os comandos acima irão reconfigurá-la para o seu sistema.
 ---
 
 ## 🔑 Registro e Autorização no Trello
@@ -200,11 +202,10 @@ Como exemplo do agente04 em operação, a partir das imagens da pasta `img/`, il
 - **Última atualização:** Maio 2026  
 - **Versão da API Trello:** v1  
 - **Python:** 3.7+  
-- **Licença:** MIT  
 
-## IMPORTANTE 
+⚠️ **IMPORTANTE** 
 
-- Assim como relatou o instrutor Henrique nas videoaulas, o Trello sempre subtrai '1' da data do registro da tarefa (Ex: 11 de maio de  2026, passa a ser 10 maio de 2026). Quando descobrir uma solução para esse pequeno problema pontual, farei uma atualização no repositório. Agradeço a compreenção de todos.
+- Assim como relatou o instrutor Henrique nas videoaulas, o Trello sempre subtrai '1' da data do registro da tarefa (Ex: 11 de maio de  2026, passa a ser 10 maio de 2026). Quando descobrir uma solução para esse pequeno problema pontual, farei uma atualização no repositório. Agradeço a compreensão de todos.
 ---
 
 **Autor** Sander Gustavo Piva
