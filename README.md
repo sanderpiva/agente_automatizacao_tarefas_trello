@@ -34,7 +34,6 @@ O script principal (`agent.py`) contém:
 
 - Credenciais via `.env`
 - Instanciação do `root_agent` usando a biblioteca `google.adk`
-
 ---
 
 ## 🛠️ Pré-requisitos
