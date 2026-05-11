@@ -138,7 +138,7 @@ TRELLO_TOKEN=SEU_TOKEN_DO_TRELLO_AQUI
 
 ---
 
-## 📜 Exemplo de Uso
+## 📜 Exemplos de Uso com opção de estrutura chave : valor
 
 ### Adicionar tarefa
 
@@ -170,6 +170,15 @@ print(mudar_status_tarefa(
 ```python
 print(remover_tarefa("Estudar Python"))
 ```
+
+## 💬 Exemplos de Comandos em Linguagem Natural
+Com o agente utiliza o Google ADK, as **solicitações** podem ser realizadas diretamente em **Linguagem Natural**:
+
+"Crie uma tarefa para estudar Python no dia 12 de maio"
+
+"Quais são as minhas tarefas em andamento?"
+
+"Mova a tarefa Estudar Python para concluído"
 
 ---
 
