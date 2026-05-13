@@ -136,8 +136,25 @@ TRELLO_TOKEN=SEU_TOKEN_DO_TRELLO_AQUI
 ```
 
 ---
+🚀 **DICA** 
 
-## 📜 Exemplos de Uso com opção de estrutura chave : valor
+- Para rodar o projeto, garanta que o ambiente está ativo e execute o comando de inicialização (ex: adk web).
+- Uma vez que o agente esteja funcionando, você pode interagir no seu terminal e observar as alterações no seu quadro Trello vinculado ao projeto.
+---
+
+## 💬 Exemplos de Comandos em Linguagem Natural
+Com o agente utiliza o Google ADK, as **solicitações** podem ser realizadas diretamente em **Linguagem Natural**:
+
+"Crie uma tarefa para estudar Python no dia 12 de maio"
+
+"Quais são as minhas tarefas em andamento?"
+
+"Mova a tarefa Estudar Python para concluído"
+
+---
+
+⚠️ **IMPORTANTE** 
+- Na prática, é como seu agente realiza-se os seguintes exemplos de operações no backend:
 
 ### Adicionar tarefa
 
@@ -170,16 +187,6 @@ print(mudar_status_tarefa(
 print(remover_tarefa("Estudar Python"))
 ```
 
-## 💬 Exemplos de Comandos em Linguagem Natural
-Com o agente utiliza o Google ADK, as **solicitações** podem ser realizadas diretamente em **Linguagem Natural**:
-
-"Crie uma tarefa para estudar Python no dia 12 de maio"
-
-"Quais são as minhas tarefas em andamento?"
-
-"Mova a tarefa Estudar Python para concluído"
-
----
 
 ## 🖼️ Seção de Fotos
 
@@ -211,7 +218,7 @@ Como exemplo do agente04 em operação, a partir das imagens da pasta `img/`, il
 - **Versão da API Trello:** v1  
 - **Python:** 3.7+  
 
-⚠️ **IMPORTANTE** 
+ℹ️ **NOTA TÉCNICA** 
 
 - Assim como relatou o instrutor Henrique nas videoaulas, o Trello sempre subtrai '1' da data do registro da tarefa (Ex: 11 de maio de  2026, passa a ser 10 maio de 2026). Quando descobrir uma solução para esse pequeno problema pontual, farei uma atualização no repositório. Agradeço a compreensão de todos.
 ---
