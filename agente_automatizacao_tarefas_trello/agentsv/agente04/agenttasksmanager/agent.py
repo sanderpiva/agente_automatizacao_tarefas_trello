@@ -24,7 +24,7 @@ def adicionar_tarefa(nome_da_task: str, descricao_da_task: str, due_date: str):
     )
 
     boards = client.list_boards()
-    meu_board = [b for b in boards if b.name == 'DIO'][0]
+    meu_board = [b for b in boards if b.name == 'NOME-SEU-PROJETO-DIO'][0]
 
     listas = meu_board.list_lists()
     minha_lista = [l for l in listas if l.name.upper() in ['TO DO', 'A FAZER']][0]
@@ -44,7 +44,7 @@ def listar_tarefas(status: str = "todas"):
     )
 
     boards = client.list_boards()
-    meu_board = [b for b in boards if b.name == 'DIO'][0]
+    meu_board = [b for b in boards if b.name == 'NOME-SEU-PROJETO-DIO'][0]
     listas = meu_board.list_lists()        
 
     if status.lower() == "todas":
@@ -82,7 +82,7 @@ def mudar_status_tarefa(nome_da_task: str, novo_status: str) -> str:
         )
 
         boards = client.list_boards()
-        meu_board = [b for b in boards if b.name == 'DIO'][0]
+        meu_board = [b for b in boards if b.name == 'NOME-SEU-PROJETO-DIO'][0]
         listas = meu_board.list_lists()
                        
         # CORREÇÃO: expandi status_map para aceitar variações
@@ -129,7 +129,7 @@ def mudar_status_tarefa(nome_da_task: str, novo_status: str) -> str:
 def remover_tarefa(nome_da_task: str) -> str:
     client = TrelloClient(api_key=API_KEY, api_secret=API_SECRET, token=TOKEN)
     boards = client.list_boards()
-    meu_board = [b for b in boards if b.name == 'DIO'][0]
+    meu_board = [b for b in boards if b.name == 'NOME-SEU-PROJETO-DIO'][0]
     listas = meu_board.list_lists()
     
     for lista in listas:
